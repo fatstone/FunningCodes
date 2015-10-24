@@ -23,7 +23,6 @@ bool _isMatch(const char* s, const char* p) {
       }
       return _isMatch(s, p+2);
    }
-
 }
 
 bool isMatch(string s, string p) {
