@@ -6,3 +6,4 @@
 6. Container With Most Water        -- containerWithMostWater.cc
 7. Integer to Roman                 -- integerAndRoman.cc
 8. Roman to Integer                 -- integerAndRoman.cc
+9. 3Sum                             -- threeSum.cc
