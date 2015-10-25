@@ -7,3 +7,4 @@
 7. Integer to Roman                 -- integerAndRoman.cc
 8. Roman to Integer                 -- integerAndRoman.cc
 9. 3Sum                             -- threeSum.cc
+10. Valid Parentheses               -- validParentheses.cc
