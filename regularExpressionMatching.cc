@@ -82,30 +82,27 @@ bool isMatchDP(string s, string p) {
    int pLen = p.length();
    vector<vector<bool> >dp(sLen+1, vector<bool>(pLen+1, false));
 
-   for (int i = 0; i <= sLen; i++) {
-      for (int j = 0; j <= pLen; j++) {
+   dp[0][0] = true;
+   for (int i = 1; i <= pLen; i++) {
+      if (i >= 2 && p[i-1] == '*') {
+         dp[0][i] = dp[0][i-2];
+      }
+   }
+
+   for (int i = 1; i <= sLen; i++) {
+      for (int j = 1; j <= pLen; j++) {
          int sIdx = i - 1, pIdx = j - 1;
 
-         /* If both s and p are NULL, match. */
-         if (sIdx < 0 && pIdx < 0) {
-            dp[i][j] = true;
-            continue;
-         }
-         /* If s is not NULL but p is NULL, never match. */
-         if (pIdx < 0 && sIdx >= 0) {
-            continue;
-         }
          if (p[pIdx] == '*') {
             /* '*' can represent 0 match. */
             if (j >= 2) {
                dp[i][j] = dp[i][j] || dp[i][j-2];
             }
             /* '*' can represent 1 or more matches. */
-            if (pIdx > 0 && sIdx >= 0 &&
-                (p[pIdx-1] == s[sIdx] || p[pIdx-1] == '.')) {
+            if ((p[pIdx-1] == s[sIdx] || p[pIdx-1] == '.')) {
                dp[i][j] = (dp[i][j] || dp[i-1][j]);
             }
-         } else if (sIdx >= 0 && (p[pIdx] == s[sIdx] || p[pIdx] == '.')) {
+         } else if ((p[pIdx] == s[sIdx] || p[pIdx] == '.')) {
             dp[i][j] = dp[i-1][j-1];
          }
       }
@@ -113,13 +110,43 @@ bool isMatchDP(string s, string p) {
    return dp[sLen][pLen];
 }
 
-string s = "aab";
-string p = "c*a*b";
+string s = "aa";
+string p = "a*";
+
+void _test() {
+   struct _tests {
+      string s1;
+      string s2;
+      bool   expected;
+   } tests[] = {
+     {
+        "a",
+        "ab*a",
+        false,
+     },
+     {
+        "aab",
+        "c*a*a*b",
+        true,
+     },
+   };
+
+   int testCases = sizeof(tests)/sizeof(struct _tests);
+   bool pass = true;
+
+   for (int i = 0; i < testCases; i++) {
+
+      //bool got = isMatch(tests[i].s1, tests[i].s2);
+      bool got = isMatchDP(tests[i].s1, tests[i].s2);
+      if (got != tests[i].expected) {
+         cout << "errors: " << i << '\t' << tests[i].s1 << '\t' << tests[i].s2 << endl;
+         pass = false;
+      }
+   }
+   if (pass) cout << "pass " << testCases << " cases!" << endl;
+}
 
 int main () {
-   bool res = isMatch(s, p);
-   bool res1 = isMatchDP(s, p);
-   cout << "s: " << s << ", p: " << p << ", match? " << res << '\n';
-   cout << "s: " << s << ", p: " << p << ", match? " << res1 << '\n';
+   _test();
    return 0;
 }
