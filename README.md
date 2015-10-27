@@ -1,3 +1,4 @@
+LeetCode: https://leetcode.com/problemset/algorithms/
 1. Regular Expression Matching      -- regularExpressionMatching.cc:
 2. Wildcard Matching                -- wildcardMatching.cc
 3. Merge Two Sorted Lists           -- mergeTwoSortedLinkLists.cc
@@ -10,3 +11,5 @@
 10. Valid Parentheses               -- validParentheses.cc
 11. Permutations                    -- permutations.cc
 12. Find the Duplicate Number       -- findDuplicateNumber.cc
+13. Linked List Cycle               -- linkListCycle.cc 
+14. Linked List Cycle II            -- linkListCycle.cc
