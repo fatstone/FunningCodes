@@ -8,3 +8,4 @@
 8. Roman to Integer                 -- integerAndRoman.cc
 9. 3Sum                             -- threeSum.cc
 10. Valid Parentheses               -- validParentheses.cc
+11. Permutations                    -- permutations.cc
