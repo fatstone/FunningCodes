@@ -9,3 +9,4 @@
 9. 3Sum                             -- threeSum.cc
 10. Valid Parentheses               -- validParentheses.cc
 11. Permutations                    -- permutations.cc
+12. Find the Duplicate Number       -- findDuplicateNumber.cc
