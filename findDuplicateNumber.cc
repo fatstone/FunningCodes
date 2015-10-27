@@ -27,7 +27,8 @@ using namespace std;
  * 2. Hash map;
  * 3. Math trick;
  * 4. Value as index;
- * 5. Cycle;
+ * 5. XOR;
+ * 6. Cycle;
  */
 int findDuplicate(vector<int>& nums) {
    int fast, slow;
