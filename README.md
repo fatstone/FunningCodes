@@ -13,3 +13,4 @@
 13. Linked List Cycle                     -- linkListCycle.cc 
 14. Linked List Cycle II                  -- linkListCycle.cc
 15. Letter Combinations of a Phone Number -- letterCombinationPhoneNumber.cc
+16. Remove Element                        -- removeElement.cc
