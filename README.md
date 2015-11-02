@@ -15,3 +15,4 @@
 15. Letter Combinations of a Phone Number -- letterCombinationPhoneNumber.cc
 16. Remove Element                        -- removeElement.cc
 17. Merge k Sorted Lists                  -- mergeKSortedLists.cc
+18. 3Sum Closest                          -- threeSumClosest.cc
