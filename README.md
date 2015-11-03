@@ -18,4 +18,4 @@
 18. 3Sum Closest                          -- threeSumClosest.cc
 19. Search in Rotated Sorted Array        -- searchRotatedSortedArray.cc
 20. Happy Number                          -- happyNumber.cc
-
+21. Merge Sorted Array                    -- mergeSortedArrays.cc
