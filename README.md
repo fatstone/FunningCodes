@@ -19,3 +19,4 @@
 19. Search in Rotated Sorted Array        -- searchRotatedSortedArray.cc
 20. Happy Number                          -- happyNumber.cc
 21. Merge Sorted Array                    -- mergeSortedArrays.cc
+22. LRU cache                             -- lruCache.cc
