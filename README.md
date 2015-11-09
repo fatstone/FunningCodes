@@ -22,3 +22,4 @@
 22. LRU cache                             -- lruCache.cc
 23. Remove Invalid Parentheses            -- removeInvalidParentheses.cc
 24. Serialize and Deserialize Binary Tree -- serializeTree.cc
+25. Swap Nodes in Pairs                   -- swapNodesInPairs.cc
