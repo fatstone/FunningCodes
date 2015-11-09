@@ -20,3 +20,4 @@
 20. Happy Number                          -- happyNumber.cc
 21. Merge Sorted Array                    -- mergeSortedArrays.cc
 22. LRU cache                             -- lruCache.cc
+23. Remove Invalid Parentheses            -- removeInvalidParentheses.cc
