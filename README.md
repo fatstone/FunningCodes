@@ -21,3 +21,4 @@
 21. Merge Sorted Array                    -- mergeSortedArrays.cc
 22. LRU cache                             -- lruCache.cc
 23. Remove Invalid Parentheses            -- removeInvalidParentheses.cc
+24. Serialize and Deserialize Binary Tree -- serializeTree.cc
