@@ -26,3 +26,4 @@
 26. Minimum Window Substring              -- minimumWindowSubstring.cc
 27. Expression Add Operators              -- expressionAddOperators.cc
 28. Find Median from Data Stream          -- findMedianFromDataStream.cc
+29. Merge Intervals                       -- mergeIntervals.cc
