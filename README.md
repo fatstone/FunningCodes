@@ -29,3 +29,4 @@
 29. Merge Intervals                       -- mergeIntervals.cc
 30. Find Peak Element                     -- findPeakElement.cc
 31. Sliding Window Maximum                -- slidingWindowMaximum.cc
+32. First Missing Positive                -- firstMissingPositive.cc
