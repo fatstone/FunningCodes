@@ -28,3 +28,4 @@
 28. Find Median from Data Stream          -- findMedianFromDataStream.cc
 29. Merge Intervals                       -- mergeIntervals.cc
 30. Find Peak Element                     -- findPeakElement.cc
+31. Sliding Window Maximum                -- slidingWindowMaximum.cc
