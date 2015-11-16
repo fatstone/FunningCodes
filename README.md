@@ -35,3 +35,4 @@
 35. Move Zeroes                           -- moveZeroes.cc
 36. Largest Number                        -- largestNumber.cc
 37. Min Stack                             -- minStack.cc
+38. Remove Duplicates from Sorted Array   -- removeDuplicatesFromSortedArray.cc
