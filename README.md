@@ -40,3 +40,4 @@
 40. Valid Sudoku                          -- validSudoku.cc
 41. Implement Queue using Stacks          -- implementQueueUsingStacks.cc
 42. Isomorphic Strings                    -- isomorphicStrings.cc
+43. Sudoku Solver                         -- sudokuSolver.cc
