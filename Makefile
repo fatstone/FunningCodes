@@ -1,5 +1,5 @@
 CPP=g++
-CFLAGS=-Wall -O2 -g -pthread
+CFLAGS=-Wall -O2 -g -std=c++0x
 
 ALLCPPEXE=$(patsubst %.cc,%,$(wildcard *.cc))
 
