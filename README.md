@@ -48,3 +48,4 @@
 48. Search a 2D Matrix II                 -- search2DMatrixII.cc
 49. Power of Two                          -- powerOfTwo.cc
 50. Implement Stack using Queues          -- implementStacksUsingQueues.cc
+51. Remove Linked List Elements           -- removeLinkedListElement.cc
