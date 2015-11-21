@@ -43,3 +43,4 @@
 43. Sudoku Solver                         -- sudokuSolver.cc
 44. Reverse Words in a String             -- reverseWordsInAString.cc
 45. Generate Parentheses                  -- generateParentheses.cc
+46. Palindrome Linked List                -- palindromeLinkedList.cc
