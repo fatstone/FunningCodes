@@ -45,4 +45,6 @@
 45. Generate Parentheses                  -- generateParentheses.cc
 46. Palindrome Linked List                -- palindromeLinkedList.cc
 47. Search a 2D Matrix                    -- search2DMatrix.cc
-47. Search a 2D Matrix II                 -- search2DMatrixII.cc
+48. Search a 2D Matrix II                 -- search2DMatrixII.cc
+49. Power of Two                          -- powerOfTwo.cc
+
