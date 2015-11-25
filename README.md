@@ -51,3 +51,4 @@
 51. Remove Linked List Elements           -- removeLinkedListElement.cc
 52. Ugly Number                           -- uglyNumber.cc
 53. Add and Search Word                   -- addAndSearchWord.cc
+54. House Robber                          -- houseRober.cc
