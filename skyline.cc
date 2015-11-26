@@ -4,29 +4,9 @@
 
 using namespace std;
 
-struct BuildingEdge {
-   int x;
-   int y;
-   bool rightEdge;
-   BuildingEdge(int x, int y, bool e): x(x), y(y), rightEdge(e) {}
-};
-
-bool comp(BuildingEdge* e1, BuildingEdge* e2) {
-   if (e1->x == e2->x) {
-      if (e1->rightEdge && e2->rightEdge) {
-         return e1->y < e2->y;
-      }
-      if (!e1->rightEdge && !e2->rightEdge) {
-         return e1->y > e2->y;
-      }
-      return !e1->rightEdge;
-   }
-   return e1->x < e2->x;
-}
-
 vector<pair<int, int> > getSkyline(vector<vector<int> >& buildings) {
    vector<pair<int, int> >res;
-   vector<BuildingEdge*>edgies;
+   vector<pair<int, int> >edgies;
    multiset<int> heap;
    int height = 0;
 
@@ -35,28 +15,26 @@ vector<pair<int, int> > getSkyline(vector<vector<int> >& buildings) {
    }
 
    for (auto& b: buildings) {
-      BuildingEdge* leftEdge = new BuildingEdge(b[0], b[2], false);
-      BuildingEdge* rightEdge = new BuildingEdge(b[1], b[2], true);
-
-      edgies.push_back(leftEdge);
-      edgies.push_back(rightEdge);
+      edgies.push_back({b[0], -1*b[2]});
+      edgies.push_back({b[1], b[2]});
    }
 
-   sort(edgies.begin(), edgies.end(), comp);
+   sort(edgies.begin(), edgies.end());
 
    heap.insert(0);
    for (auto& e: edgies) {
       int maxHeight;
 
-      if (e->rightEdge) {
-         heap.erase(heap.find(e->y));
+      if (e.second > 0) {
+         /* Right edge */
+         heap.erase(heap.find(e.second));
       } else {
-         heap.insert(e->y);
+         heap.insert(-1*e.second);
       }
       maxHeight = *heap.rbegin();     
 
       if (height != maxHeight) {
-         res.push_back(make_pair(e->x, maxHeight));
+         res.push_back({e.first, maxHeight});
          height = maxHeight;
       }
    }
