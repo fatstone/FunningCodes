@@ -56,3 +56,4 @@
 55. The Skyline Problem                   -- skyline.cc
 56. Kth Largest Element in an Array       -- kLargestElement.cc
 57. Majority Element                      -- majorityElement.cc
+58. Flip Game                             -- flipGame.cc
