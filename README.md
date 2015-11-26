@@ -55,3 +55,4 @@
 54. House Robber II                       -- houseRoberII.cc
 55. The Skyline Problem                   -- skyline.cc
 56. Kth Largest Element in an Array       -- kLargestElement.cc
+57. Majority Element                      -- majorityElement.cc
