@@ -57,3 +57,4 @@
 56. Kth Largest Element in an Array       -- kLargestElement.cc
 57. Majority Element                      -- majorityElement.cc
 58. Flip Game                             -- flipGame.cc
+59. Wiggle Sort                           -- wiggleSort.cc
