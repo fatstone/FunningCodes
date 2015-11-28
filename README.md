@@ -62,3 +62,4 @@
 61. Paint Fence                           -- paintFence.cc
 62. Combinations                          -- combinations.cc
 63. Combination Sum                       -- combinationSum.cc
+64. Add Binary                            -- addBinary.cc
