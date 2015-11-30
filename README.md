@@ -64,3 +64,4 @@
 63. Combination Sum                       -- combinationSum.cc
 64. Add Binary                            -- addBinary.cc
 65. Word Pattern                          -- wordPattern.cc
+66. Paint House                           -- paintHouse.cc
