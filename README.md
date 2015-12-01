@@ -65,3 +65,4 @@
 64. Add Binary                            -- addBinary.cc
 65. Word Pattern                          -- wordPattern.cc
 66. Paint House                           -- paintHouse.cc
+67. Course Schedule                       -- courseSchedule.cc
