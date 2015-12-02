@@ -52,18 +52,19 @@
 52. Ugly Number                           -- uglyNumber.cc
 53. Add and Search Word                   -- addAndSearchWord.cc
 54. House Robber                          -- houseRober.cc
-54. House Robber II                       -- houseRoberII.cc
-55. The Skyline Problem                   -- skyline.cc
-56. Kth Largest Element in an Array       -- kLargestElement.cc
-57. Majority Element                      -- majorityElement.cc
-58. Flip Game                             -- flipGame.cc
-59. Wiggle Sort                           -- wiggleSort.cc
-60. Meeting Rooms II                      -- meetingRoomsII.cc
-61. Paint Fence                           -- paintFence.cc
-62. Combinations                          -- combinations.cc
-63. Combination Sum                       -- combinationSum.cc
-64. Add Binary                            -- addBinary.cc
-65. Word Pattern                          -- wordPattern.cc
-66. Paint House                           -- paintHouse.cc
-67. Course Schedule                       -- courseSchedule.cc
-67. Course Schedule II                    -- courseScheduleII.cc
+55. House Robber II                       -- houseRoberII.cc
+56. The Skyline Problem                   -- skyline.cc
+57. Kth Largest Element in an Array       -- kLargestElement.cc
+58. Majority Element                      -- majorityElement.cc
+59. Flip Game                             -- flipGame.cc
+60. Wiggle Sort                           -- wiggleSort.cc
+61. Meeting Rooms II                      -- meetingRoomsII.cc
+62. Paint Fence                           -- paintFence.cc
+63. Combinations                          -- combinations.cc
+64. Combination Sum                       -- combinationSum.cc
+65. Add Binary                            -- addBinary.cc
+66. Word Pattern                          -- wordPattern.cc
+67. Paint House                           -- paintHouse.cc
+68. Course Schedule                       -- courseSchedule.cc
+69. Course Schedule II                    -- courseScheduleII.cc
+70. Number of Islands                     -- numberOfIslands.cc
