@@ -72,3 +72,4 @@
 72. 4Sum                                  -- fourSum.cc
 73. Search for a Range                    -- searchForARange.cc
 74. Search Insert Position                -- searchInsertPosition.cc
+75. Longest Valid Parentheses             -- longestValidParentheses.cc
