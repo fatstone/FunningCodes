@@ -69,3 +69,4 @@
 69. Course Schedule II                    -- courseScheduleII.cc
 70. Number of Islands                     -- numberOfIslands.cc
 71. Reverse Nodes in k-Group              -- reverseNodesInKGroup.cc
+72. 4Sum                                  -- fourSum.cc
