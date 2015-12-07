@@ -74,3 +74,4 @@
 74. Search Insert Position                -- searchInsertPosition.cc
 75. Longest Valid Parentheses             -- longestValidParentheses.cc
 76. Compare Version Numbers               -- compareVersion.cc
+77. Summary Ranges                        -- summaryRange.cc
